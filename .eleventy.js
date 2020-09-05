@@ -149,6 +149,16 @@ module.exports = function (eleventyConfig) {
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
+    snippetOptions: {
+      // Insert BrowserSync’s JavaScript immediately after the DOCTYPE tag,
+      // instead of the <body> tag.
+      rule: {
+        match: /<!DOCTYPE html>/i,
+        fn: function (snippet, match) {
+          return snippet + match;
+        },
+      },
+    },
     callbacks: {
       ready: function (err, browserSync) {
         const content_404 = fs.readFileSync("_site/404.html");

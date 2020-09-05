@@ -1,12 +1,12 @@
 {
-  "title": "Title of the website. Update me.",
+  "title": "Tom Hermans",
   "url": "https://update-me.com",
   "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
-  "genre": "Insert a schema.org genre",
+  "description": "Tom's playground",
+  "genre": "CreativeWork",
   "googleAnalyticsId": "GA ID. Update me",
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "Tom's feed.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://update-me.com"
@@ -16,10 +16,10 @@
     "url": "https://update-me.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Tom Hermans.",
+    "twitterHandle": "tomhermans"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Tom Hermans."
   }
 }
